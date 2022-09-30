@@ -30,3 +30,12 @@ string[] GetArrayLessThreeChar(string[] array)
     }
     return newArray;
 }
+
+//Печать массива
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+}
